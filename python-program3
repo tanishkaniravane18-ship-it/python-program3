@@ -1,0 +1,51 @@
+#ques1
+x = int(input("enter a number:"))
+print("integer number is= ",x)
+
+#ques2
+string = input("enter a string:")
+print("string entered is: ",string)
+
+#ques3
+a = float(input("enter a float number:"))
+print("float number entered is: ",a)
+
+#ques4
+a = int(input("enter number for addition:"))
+b = int(input("enter 2nd number for addition:"))
+res = a+b
+print("addition of 2 numbers is= ",res)
+
+#ques5
+a = input("enter your name:")
+b = int(input("enter your age:"))
+print("name: ",a)
+print("age: ",b)
+
+#ques6
+f1 = 2.0
+f2 = 4.6
+f3 = 3.3
+avg = f1 + f2 + f3/3
+print("f1:",f1)
+print("f2:",f2)
+print("f3:",f3)
+print("average of float number= ",avg)
+
+#ques7
+x = int(input("enter a number:"))
+print("datatype of entered value is: ",type(x))
+
+#ques8
+string = input("enter a string:")
+print("datatype of string entered: ",type(string))
+
+#ques9
+a = float(input("enter a float number:"))
+print("datatype of number entered is: ",type(a))
+
+#ques10
+a = int(input("enter 1st number :"))
+b = int(input("enter 2nd number :"))
+res = a*b
+print("multiplication of 2 numbers is= ",res)
